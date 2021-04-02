@@ -1,13 +1,13 @@
 import React from "react";
 import Photo from './components/Photo'
-import "./App.css";
+import {AppContainer} from './components/Styles'
 
 function App() {
 
   return (
-    <div className="App">
+    <AppContainer>
       <Photo />
-    </div>
+    </AppContainer>
   );
 }
 
